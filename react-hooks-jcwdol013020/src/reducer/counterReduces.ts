@@ -1,6 +1,6 @@
 enum CountActionKind{
-    INCREMENT = 'increment',
-    DECREMENT = 'decrement'
+    INCREMENT = "increment",
+    DECREMENT = "decrement",
 }
 
 interface CountAction{

@@ -1,0 +1,74 @@
+{
+    "superheroes" : [
+        {
+            "id":1,
+            "name": "batman",
+            "color" : "black",
+            "superpower": "rich"
+        },
+        {
+            "id":2,
+            "name": "superman",
+            "color" : "red",
+            "superpower": "superhuman strength and fly"
+        },
+        {
+            "id":3,
+            "name": "Spiderman",
+            "color" : "blue",
+            "superpower": "superhuman spider"
+        },
+        {
+            "id":4,
+            "name": "Catwoman",
+            "color" : "white",
+            "superpower": "superhuman cat"
+        },
+        {
+            "id":1303,
+            "name": "Ain",
+            "color" : "green",
+            "superpower": "superhuman strength and fast regeneration"
+        },
+        {
+            "id":1105,
+            "name": "Rio",
+            "color" : "pink",
+            "superpower": "superhuman fast run"
+        },
+        {
+            "id":1917,
+            "name": "Powerangers",
+            "color" : "yellow",
+            "superpower": "superhuman cartoon"
+        },
+        {
+            "id": "5d43",
+            "name": "test",
+            "color": "white",
+            "superpower": "hello"
+          },
+          {
+            "id": "1eab",
+            "name": "dimas",
+            "color": "green",
+            "superpower": "dfgfdg",
+            "email": "dimas@gmail.com"
+          },
+          {
+            "id": "3f81",
+            "name": "Rohan ",
+            "color": "green",
+            "superpower": "dfgfdg",
+            "email": "dimas@gmail.com"
+          },
+          {
+            "id": "21ef",
+            "name": "Rohan ",
+            "color": "green",
+            "superpower": "dfgfdg",
+            "email": "dimas@gmail.com"
+          }
+        
+    ]
+}

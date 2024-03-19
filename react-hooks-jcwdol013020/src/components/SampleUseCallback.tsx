@@ -7,7 +7,7 @@ export default function SampleUseCallback(){
 
     const increment = () =>{
         setCount(count + 1)
-    }
+    };
 
     const addTodo = useCallback(() => {
         setTodos((prevTodos: string[]) => [...prevTodos, "New Todo"]);

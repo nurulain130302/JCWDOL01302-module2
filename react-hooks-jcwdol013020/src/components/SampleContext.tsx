@@ -1,17 +1,17 @@
 import { createContext, useContext, useState } from "react";
 
-const userContext = createContext();
+const UserContext = createContext();
 
 export default function Component1(){
-    const [user, setUser] = useState<string>("World");
+    const [user, setUser] = useState<string>("Hello World");
 
     return(
-        <userContext.Provider value={user}>
+        <UserContext.Provider value={user}>
         <div>
             <h1>{`Hello ${user}`}</h1>
             <Component2></Component2>
         </div>
-        </userContext.Provider>
+        </UserContext.Provider>
     );
 }
 

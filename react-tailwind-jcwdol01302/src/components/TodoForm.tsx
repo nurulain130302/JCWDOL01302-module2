@@ -32,7 +32,7 @@ export default function TodoForm(props: ITodoForm){
             value={todoTitle} 
             onChange={(e) => setTodoTitle(e.target.value)} 
             placeholder="Add Todo" 
-            className="my-5"></Input>
+            className="my-5" />
             <Button colorScheme="green" onClick={() => handleAddTodo()}> 
             {" "}Add Todo{" "}
             </Button>

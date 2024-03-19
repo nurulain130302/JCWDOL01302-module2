@@ -2,7 +2,7 @@ import useCounter from "../hooks/useCounter"
 
 export default function CounterNew(){
 
-    const [count, increment, decrement] = useCounter(2, 3)
+    const [count, increment, decrement] = useCounter(2, 3);
     return(
         <div>
             <h1>Counter {count} </h1>

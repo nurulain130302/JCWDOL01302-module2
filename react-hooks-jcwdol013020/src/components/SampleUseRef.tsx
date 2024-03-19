@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from "react"
+import {useEffect, useRef, useState} from "react"
 
 export default function SampleUseRef(){   
     const [name, setName] = useState(" ")
@@ -30,6 +30,10 @@ export default function SampleUseRef(){
     const handleClickButton = () => {
         
     }
+
+    const loadDataUser = () => [
+
+    ]
     return(
         <div className="App">
         <input type="text" ref={inputRef} />
@@ -38,7 +42,7 @@ export default function SampleUseRef(){
         <hr />
         <input type="text" onChange={(e) => setName(e.target.value)} />
         <div>Your Name: {name}</div>
-        <div>Render Count {counter}</div>
+        <div>Render Count : {counter}</div>
         </div>
     )
 }

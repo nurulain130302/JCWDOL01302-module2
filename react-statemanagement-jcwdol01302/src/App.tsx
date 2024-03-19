@@ -1,9 +1,9 @@
 // import { useEffect } from 'react'
 import './App.css'
 
-import MyPage from './pages/MyPage';
+// import MyPage from './pages/MyPage';
+import CounterAgain from './pages/counterAgain';
 
-localStorage.setItem("hello" , "world");
 
 function App() {
 
@@ -24,7 +24,7 @@ function App() {
   {" "}
   Create Session 
   </button> */}
-  <MyPage></MyPage>
+  <CounterAgain />
   </>
   )
 }

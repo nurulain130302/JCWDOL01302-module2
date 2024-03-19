@@ -1,7 +1,7 @@
 import { memo } from "react";
 
 interface ITodos{
-    todos: string[],
+    todos: string[];
     addTodo: () => void;
 }
 
@@ -14,9 +14,7 @@ function Todos(props: ITodos){
         <div>
             <h2>My Todos</h2>
             {todos.map((todo: string, index: number) => {
-                return(
-                    <p key={index}>{todo}</p>
-                )
+                return <p key={index}>{todo}</p>
             })}
             <button onClick={addTodo}> Add Todo</button>
         </div>

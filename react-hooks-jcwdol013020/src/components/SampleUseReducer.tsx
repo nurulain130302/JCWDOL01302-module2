@@ -1,4 +1,5 @@
 import { useReducer } from "react"
+
 import counterReducer from "./../reducer/counterReduces"
 
 export default function SampleUseReducer(){
@@ -6,11 +7,11 @@ export default function SampleUseReducer(){
     const [state, dispatch] = useReducer(counterReducer, {count: 0});
 
     const increment = () => {
-        dispatch({type: "increment", payload: 1});
+        dispatch({ type: "increment", payload: 1});
     };
 
     const decrement = () => {
-        dispatch({type: "decrement", payload: 1});
+        dispatch({ type: "decrement", payload: 1});
     };
 
     return (
